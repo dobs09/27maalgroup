@@ -1,0 +1,294 @@
+﻿@page "/"
+
+@inject HttpClient Http
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@inject IJSRuntime jsRuntime
+
+<div class="row" style="padding-top: 10px; padding-left: 10px; padding-bottom: 30px;">
+    <div style="float: left;">
+        <img src="@imageSource" />
+    </div>
+    <div >
+        <h2 style="padding-left: 570px; padding-top: 1px; font-family:Verdana; font-weight: bold;">Egedal kommune 27 mål</h2>
+        <h4 style="padding-left: 310px; font-family:Verdana; font-weight: bold; ">Følg med i Egedals arbejde mod at blive et endnu bedre sted at bo og arbejde</h4>
+
+    </div>
+
+</div>
+
+<div class="row">
+    <div style="padding-bottom: 25px; padding-top: 10px; padding-left: 15px;">
+        <select class="form-control" @onchange="@VælgGraf" style="width:500px; font-size: 20px; border:2px solid rgba(0,0,0,0.4); background-color: rgb(245, 242, 230); ">
+
+            @foreach (var mulighed in valg)
+            {
+                <option value=@mulighed>@mulighed</option>
+            }
+        </select>
+    </div>
+    @*<div style="width: 300px;">
+            <span style="color:cadetblue; font-size: 300px; text-overflow:clip;  ">&#9733;</span>
+        </div>*@
+
+
+</div>
+@if (tal == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+
+    <table class="table">
+        <thead>
+            <tr>
+                @*<th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; -moz-border-radius-topleft: 99px;">Kategori</th>*@
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Placering</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Seneste placering Egedal</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Status Egedal</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Seneste måling Egedal</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Status Danmark</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                @*<td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@categori</td>*@
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.placering</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.senesteEgedal</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.statusEgedal</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.senesteDanmark</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.statusDanmark</td>
+
+
+
+
+
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="padding-top: 30px;">
+        <table class="table" >
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Indikator</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">@tal.Indikator</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th style="border: 1px solid #ccc; text-align: center; width: 250px; background-color:whitesmoke; border-color: white; padding: 1rem;">Mål</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:whitesmoke; border-color: white; padding: 1rem;">Top 10 i Danmark</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Hvorfor er det vigtigt?</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">@tal.Hvorfor</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">Hvad gør vi allerede?</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.Hvad</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Eventuelt nye initiativer?</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">@tal.Initiativer</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+}
+
+@code {
+
+    private string? imageSource = $"images/egedal1.png";
+    private Egedalmaal tal;
+    private string categori { get; set; }
+
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        categori = "Afgangskarakterer i folkeskolen";
+        tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44336/api/egemaal/1");
+        await Load();
+
+    }
+
+    protected async Task Load()
+    {
+        switch (categori)
+        {
+            case "Afgangskarakterer i folkeskolen":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44336/api/egemaal/1");
+                StateHasChanged();
+                break;
+
+            case "Fravær blandt elever i folkeskolen":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/2");
+                StateHasChanged();
+                break;
+            case "Forebyggelse til udsatte børn og unge":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/3");
+
+                StateHasChanged();
+                break;
+            case "Sikker skoletrafik":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/4");
+
+                StateHasChanged();
+                break;
+            case "Elever i ungdomsuddannelse":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/5");
+
+                StateHasChanged();
+                break;
+            case "Beskæftigelsesgraden":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/6");
+
+                StateHasChanged();
+                break;
+            case "Erhvervsklima":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/7");
+
+                StateHasChanged();
+                break;
+            case "Udlicitering og konkurrenceudsættelse":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/8");
+
+                StateHasChanged();
+                break;
+            case "Fysisk helbred":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/9 ");
+
+                StateHasChanged();
+                break;
+            case "Fysisk aktivitet":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/10");
+
+                StateHasChanged();
+                break;
+            case "Rygning":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/11");
+
+                StateHasChanged();
+                break;
+            case "Alkohol":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/12");
+
+                StateHasChanged();
+                break;
+            case "Genindlæggelser":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/13");
+
+                StateHasChanged();
+                break;
+            case "Ofte uønsket alene (færrest)":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/14");
+
+                StateHasChanged();
+                break;
+            case "Mentalt helbred":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/15");
+
+                StateHasChanged();
+                break;
+            case "Stress":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/16");
+
+                StateHasChanged();
+                break;
+            case "Antal indbrud":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/17");
+
+                StateHasChanged();
+                break;
+            case "Anmeldte voldsforbrydelser":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/18");
+
+                StateHasChanged();
+                break;
+            case "Liggetid på hussalg":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/19");
+
+                StateHasChanged();
+                break;
+            case "Besøg på bibliotekerne":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/20");
+
+                StateHasChanged();
+                break;
+            case "Unikke medlemmer af idrætsorganisation":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/21");
+
+                StateHasChanged();
+                break;
+            case "Genanvendelse af affald":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/22");
+
+                StateHasChanged();
+                break;
+            case "CO2 reduktion":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/23");
+               
+                StateHasChanged();
+                break;
+            case "Anbefaling af kommunen":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/24");
+
+                StateHasChanged();
+                break;
+            case "Tilfredshed med kommunens service":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/25");
+
+                StateHasChanged();
+                break;
+            case "Medarbejdernes sygefravær":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/26");
+
+                StateHasChanged();
+                break;
+            case "Samlet trvisel 4.-9kl":
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/27");
+
+                StateHasChanged();
+                break;
+
+        }
+
+        //forandring = tal.placering - tal.;
+    }
+
+    protected async Task VælgGraf(ChangeEventArgs e)
+    {
+
+        categori = Convert.ToString(e.Value);
+        await Load();
+
+    }
+
+    List<string> valg = new List<string>() { "Afgangskarakterer i folkeskolen", "Medarbejdernes sygefravær", "Tilfredshed med kommunens service", "Anbefaling af kommunen", "CO2 reduktion",
+                "Genanvendelse af affald", "Unikke medlemmer af idrætsorganisation", "Besøg på bibliotekerne", "Liggetid på hussalg", "Anmeldte voldsforbrydelser", "Antal indbrud", "Stress",
+            "Mentalt helbred", "Ofte uønsket alene (færrest)", "Genindlæggelser", "Alkohol", "Rygning", "Fysisk aktivitet", "Fysisk helbred", "Udlicitering og konkurrenceudsættelse", "Erhvervsklima",
+            "Beskæftigelsesgraden", "Elever i ungdomsuddannelse", "Sikker skoletrafik", "Forebyggelse til udsatte børn og unge", "Fravær blandt elever i folkeskolen", "Samlet trvisel 4.-9kl" };
+
+    public class Egedalmaal
+    {
+        public int id { get; set; }
+        public string kategori { get; set; }
+        public double? statusEgedal { get; set; }
+        public double? statusDanmark { get; set; }
+        public double? senesteEgedal { get; set; }
+        public double? senesteDanmark { get; set; }
+        public int? placering { get; set; }
+        public string? Hvad { get; set; }
+        public string? Hvorfor { get; set; }
+        public string? Initiativer { get; set; }
+        public string? Indikator { get; set; }
+
+
+    }
+}

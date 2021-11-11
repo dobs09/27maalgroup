@@ -1,0 +1,5 @@
+﻿<linker>
+  <assembly fullname="27MaalBlazor">
+    <type fullname="*" required="true" />
+  </assembly>
+</linker>

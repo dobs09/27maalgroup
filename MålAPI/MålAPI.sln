@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MålAPI", "MålAPI\MålAPI.csproj", "{C200D1A4-4FE3-4F65-B2DC-30CC7846FDDA}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MålAPI", "MålAPI\MålAPI.csproj", "{C200D1A4-4FE3-4F65-B2DC-30CC7846FDDA}"
+>>>>>>> smukVisualiseringFeature
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C200D1A4-4FE3-4F65-B2DC-30CC7846FDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C200D1A4-4FE3-4F65-B2DC-30CC7846FDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C200D1A4-4FE3-4F65-B2DC-30CC7846FDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C200D1A4-4FE3-4F65-B2DC-30CC7846FDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FFF522B-AD1A-4CC5-828D-200FEAD85122}
+	EndGlobalSection
+EndGlobal

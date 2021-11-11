@@ -1,0 +1,81 @@
+﻿@model Indtast27Mål.Models.EgeMål
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1></h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kategori)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kategori)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StatusEgedal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StatusEgedal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StatusDanmark)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StatusDanmark)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SenesteEgedal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SenesteEgedal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SenesteDanmark)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SenesteDanmark)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Placering)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Placering)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Hvad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Hvad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Hvorfor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Hvorfor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Initiativer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Initiativer)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Indikator)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Indikator)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
