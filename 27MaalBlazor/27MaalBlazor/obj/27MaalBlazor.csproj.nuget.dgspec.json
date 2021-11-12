@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jjuip2\\Desktop\\GIT_27\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj": {}
+    "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jjuip2\\Desktop\\GIT_27\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj": {
+    "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jjuip2\\Desktop\\GIT_27\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj",
         "projectName": "27MaalBlazor",
-        "projectPath": "C:\\Users\\jjuip2\\Desktop\\GIT_27\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj",
+        "projectPath": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj",
         "packagesPath": "C:\\Users\\jjuip2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jjuip2\\Desktop\\GIT_27\\27MaalBlazor\\27MaalBlazor\\obj\\",
+        "outputPath": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

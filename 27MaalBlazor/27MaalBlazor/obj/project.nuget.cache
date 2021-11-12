@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vldqQjrKSTdF8YT5B5vzPZ3sicYkMVJ851pn/As+Q/a2ejPmIIkUJwScvp/ovyjIkT3FZ4ymbFlNTFJvIggCng==",
+  "dgSpecHash": "JIZptcGt+4TqxqX5GTiMNkAul7Rcqet4N2EQKxKFXH2zgG4Dy/pcXFegvE9ZKp6YrVqf0nxd9rAqCp10T6GZPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjuip2\\Desktop\\GIT_27\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj",
+  "projectFilePath": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\27MaalBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jjuip2\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\jjuip2\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

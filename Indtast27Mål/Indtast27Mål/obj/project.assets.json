@@ -8480,11 +8480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jjuip2\\Desktop\\GIT_27\\Indtast27Mål\\Indtast27Mål\\Indtast27Mål.csproj",
+      "projectUniqueName": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\Indtast27Mål\\Indtast27Mål\\Indtast27Mål.csproj",
       "projectName": "Indtast27Mål",
-      "projectPath": "C:\\Users\\jjuip2\\Desktop\\GIT_27\\Indtast27Mål\\Indtast27Mål\\Indtast27Mål.csproj",
+      "projectPath": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\Indtast27Mål\\Indtast27Mål\\Indtast27Mål.csproj",
       "packagesPath": "C:\\Users\\jjuip2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jjuip2\\Desktop\\GIT_27\\Indtast27Mål\\Indtast27Mål\\obj\\",
+      "outputPath": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\Indtast27Mål\\Indtast27Mål\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

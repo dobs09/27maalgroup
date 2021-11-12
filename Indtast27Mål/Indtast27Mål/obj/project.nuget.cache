@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XyyANUGAgF8+dCXl5C4V3nTRu26W7faA6Kh1Ysb8dj3dQhWkxMx/9z7oTLrUmpx0QWqC4IugE27nyqKAh1j1TQ==",
+  "dgSpecHash": "101oKEWac6JViqXH4mkNLgfQpuYX13It4Og6oo2uLyD7GPxlQ1Cqi/3mZe8wxj6b9+iEpc9D96FQgpUjnF18tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjuip2\\Desktop\\GIT_27\\Indtast27Mål\\Indtast27Mål\\Indtast27Mål.csproj",
+  "projectFilePath": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\Indtast27Mål\\Indtast27Mål\\Indtast27Mål.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jjuip2\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\jjuip2\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

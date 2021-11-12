@@ -12,70 +12,70 @@ namespace _27MaalBlazor.Pages
     using System.Linq;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 3 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 3 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 4 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 5 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 6 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 7 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 8 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using _27MaalBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 9 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using _27MaalBlazor.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 4 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 5 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 6 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
 using System.Threading.Tasks;
 
 #line default
@@ -90,7 +90,7 @@ using System.Threading.Tasks;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 104 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 104 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
        
 
     private string? imageSource = $"images/egedal1.png";
