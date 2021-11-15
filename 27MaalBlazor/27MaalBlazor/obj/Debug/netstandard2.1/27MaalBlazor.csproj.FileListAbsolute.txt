@@ -542,7 +542,6 @@ C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstanda
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\tgEzo7X3e07r9ID1SJoaUeI8s_D1mughf92Yu8rYCw4=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -594,13 +593,11 @@ C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstanda
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\_kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\d3C7i7ppYZ-y7dTiADbj-AqOrKqfV1GDItXiJEX9bww=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\4z4eVA2W3GMMHEzyBIgx208TX5fS5sSDc2LgJydMmuQ=.hash
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\compressed\_framework\_bin\27MaalBlazor.dll.gz
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
@@ -726,3 +723,6 @@ C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstanda
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.csproj.CopyComplete
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.dll
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.pdb
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\d8knA0Rs3ongBwz7nC_u3LrKwKiTIhroGpWzD6qMo9E=.hash
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\gCQRZTXs7FXp5nHgI3_xwmc4SkFvK3TdlH_WuSSfo4Q=.hash
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\SpK3TuavGV57jxK0WPf_k9hM0jBu9kdPza9PeEeR7zs=.hash

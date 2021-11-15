@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\jjuip2\Desktop\publish\27MålAPI</_PublishTargetUrl>
+    <History>True|2021-11-12T09:20:20.6718765Z;True|2021-11-12T09:28:53.9900092+01:00;</History>
+  </PropertyGroup>
+</Project>

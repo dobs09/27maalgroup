@@ -20,5 +20,7 @@ namespace Indtast27Mål.Models
         public string Hvorfor { get; set; }
         public string Initiativer { get; set; }
         public string Indikator { get; set; }
+        public string Dato { get; set; }
+
     }
 }

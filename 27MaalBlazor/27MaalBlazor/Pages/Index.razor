@@ -8,11 +8,11 @@
 
 <div class="row" style="padding-top: 10px; padding-left: 10px; padding-bottom: 30px;">
     <div style="float: left;">
-        <img src="@imageSource" />
+        <img src="@imageSource"  style="width: 400px;"/>
     </div>
     <div >
-        <h2 style="padding-left: 570px; padding-top: 1px; font-family:Verdana; font-weight: bold;">Egedal kommune 27 mål</h2>
-        <h4 style="padding-left: 310px; font-family:Verdana; font-weight: bold; ">Følg med i Egedals arbejde mod at blive et endnu bedre sted at bo og arbejde</h4>
+        <h1 style="padding-left: 570px; padding-top: 1px; font-family:Verdana; font-weight: bold;">Egedal kommune 27 mål</h1>
+        <h3 style="padding-left: 310px; font-family:Verdana; font-weight: bold; ">Følg med i Egedals arbejde mod at blive et endnu bedre sted at bo og arbejde</h3>
 
     </div>
 
@@ -20,7 +20,7 @@
 
 <div class="row">
     <div style="padding-bottom: 25px; padding-top: 10px; padding-left: 15px;">
-        <select class="form-control" @onchange="@VælgGraf" style="width:500px; font-size: 20px; border:2px solid rgba(0,0,0,0.4); background-color: rgb(245, 242, 230); ">
+        <select class="form-control" @onchange="@VælgGraf" style="width:500px; font-size: 30px; border:2px solid rgba(0,0,0,0.4); background-color: rgb(245, 242, 230); ">
 
             @foreach (var mulighed in valg)
             {
@@ -45,22 +45,24 @@ else
         <thead>
             <tr>
                 @*<th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; -moz-border-radius-topleft: 99px;">Kategori</th>*@
-                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Placering</th>
-                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Seneste placering Egedal</th>
-                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Status Egedal</th>
-                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Seneste måling Egedal</th>
-                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Status Danmark</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Placering</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Seneste placering Egedal</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Status Egedal</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Seneste måling Egedal</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Status Danmark</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Opdateret</th>
 
             </tr>
         </thead>
         <tbody>
             <tr>
                 @*<td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@categori</td>*@
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.placering</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.senesteEgedal</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.statusEgedal</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.senesteDanmark</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.statusDanmark</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">@tal.placering</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">@tal.senesteEgedal</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">@tal.statusEgedal</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">@tal.senesteDanmark</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">@tal.statusDanmark</td>
+                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">@tal.Dato</td>
 
 
 
@@ -74,26 +76,26 @@ else
         <table class="table" >
             <thead>
                 <tr>
-                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Indikator</th>
-                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">@tal.Indikator</td>
+                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Indikator</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">@tal.Indikator</td>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th style="border: 1px solid #ccc; text-align: center; width: 250px; background-color:whitesmoke; border-color: white; padding: 1rem;">Mål</th>
-                    <td style="border: 1px solid #ccc; text-align: left; background-color:whitesmoke; border-color: white; padding: 1rem;">Top 10 i Danmark</td>
+                    <th style="border: 1px solid #ccc; text-align: center; width: 250px; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">Mål</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:whitesmoke; border-color: white; padding: 1rem;font-size: 25px;">Top 10 i Danmark</td>
                 </tr>
                 <tr>
-                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Hvorfor er det vigtigt?</th>
-                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">@tal.Hvorfor</td>
+                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Hvorfor er det vigtigt?</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">@tal.Hvorfor</td>
                 </tr>
                 <tr>
-                    <th style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem;">Hvad gør vi allerede?</th>
-                    <td style="border: 1px solid #ccc; text-align: left; background-color:whitesmoke; border-color: white; padding: 1rem;">@tal.Hvad</td>
+                    <th style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">Hvad gør vi allerede?</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 25px;">@tal.Hvad</td>
                 </tr>
                 <tr>
-                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">Eventuelt nye initiativer?</th>
-                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem;">@tal.Initiativer</td>
+                    <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Eventuelt nye initiativer?</th>
+                    <td style="border: 1px solid #ccc; text-align: left; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">@tal.Initiativer</td>
                 </tr>
             </tbody>
         </table>
@@ -107,152 +109,151 @@ else
     private Egedalmaal tal;
     private string categori { get; set; }
 
-
-
-
+    
     protected override async Task OnInitializedAsync()
     {
         categori = "Afgangskarakterer i folkeskolen";
-        tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44336/api/egemaal/1");
+        tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
         await Load();
 
     }
+
 
     protected async Task Load()
     {
         switch (categori)
         {
             case "Afgangskarakterer i folkeskolen":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44336/api/egemaal/1");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
                 StateHasChanged();
                 break;
 
             case "Fravær blandt elever i folkeskolen":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/2");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/2");
                 StateHasChanged();
                 break;
             case "Forebyggelse til udsatte børn og unge":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/3");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/3");
 
                 StateHasChanged();
                 break;
             case "Sikker skoletrafik":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/4");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/4");
 
                 StateHasChanged();
                 break;
             case "Elever i ungdomsuddannelse":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/5");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/5");
 
                 StateHasChanged();
                 break;
             case "Beskæftigelsesgraden":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/6");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/6");
 
                 StateHasChanged();
                 break;
             case "Erhvervsklima":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/7");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/7");
 
                 StateHasChanged();
                 break;
             case "Udlicitering og konkurrenceudsættelse":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/8");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/8");
 
                 StateHasChanged();
                 break;
             case "Fysisk helbred":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/9 ");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/9 ");
 
                 StateHasChanged();
                 break;
             case "Fysisk aktivitet":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/10");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/10");
 
                 StateHasChanged();
                 break;
             case "Rygning":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/11");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/11");
 
                 StateHasChanged();
                 break;
             case "Alkohol":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/12");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/12");
 
                 StateHasChanged();
                 break;
             case "Genindlæggelser":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/13");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/13");
 
                 StateHasChanged();
                 break;
             case "Ofte uønsket alene (færrest)":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/14");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/14");
 
                 StateHasChanged();
                 break;
             case "Mentalt helbred":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/15");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/15");
 
                 StateHasChanged();
                 break;
             case "Stress":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/16");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/16");
 
                 StateHasChanged();
                 break;
             case "Antal indbrud":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/17");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/17");
 
                 StateHasChanged();
                 break;
             case "Anmeldte voldsforbrydelser":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/18");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/18");
 
                 StateHasChanged();
                 break;
             case "Liggetid på hussalg":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/19");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/19");
 
                 StateHasChanged();
                 break;
             case "Besøg på bibliotekerne":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/20");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/20");
 
                 StateHasChanged();
                 break;
             case "Unikke medlemmer af idrætsorganisation":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/21");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/21");
 
                 StateHasChanged();
                 break;
             case "Genanvendelse af affald":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/22");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/22");
 
                 StateHasChanged();
                 break;
             case "CO2 reduktion":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/23");
-               
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/23");
+
                 StateHasChanged();
                 break;
             case "Anbefaling af kommunen":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/24");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/24");
 
                 StateHasChanged();
                 break;
             case "Tilfredshed med kommunens service":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/25");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/25");
 
                 StateHasChanged();
                 break;
             case "Medarbejdernes sygefravær":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/26");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/26");
 
                 StateHasChanged();
                 break;
             case "Samlet trvisel 4.-9kl":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/27");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/27");
 
                 StateHasChanged();
                 break;
@@ -288,6 +289,7 @@ else
         public string? Hvorfor { get; set; }
         public string? Initiativer { get; set; }
         public string? Indikator { get; set; }
+        public string? Dato { get; set; }
 
 
     }

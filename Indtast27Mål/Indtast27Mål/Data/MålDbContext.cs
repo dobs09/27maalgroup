@@ -50,6 +50,10 @@ namespace Indtast27Mål.Data
                     .HasMaxLength(250)
                     .IsFixedLength();
 
+                entity.Property(e => e.Dato)
+                    .HasMaxLength(250)
+                    .IsFixedLength();
+
                 entity.Property(e => e.Hvorfor)
                     .HasMaxLength(250)
                     .IsFixedLength();

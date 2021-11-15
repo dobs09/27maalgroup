@@ -12,70 +12,70 @@ namespace _27MaalBlazor.Pages
     using System.Linq;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 3 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 3 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 4 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 5 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 6 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 7 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 8 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using _27MaalBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\_Imports.razor"
+#line 9 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using _27MaalBlazor.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 4 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 5 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 6 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
 using System.Threading.Tasks;
 
 #line default
@@ -90,159 +90,158 @@ using System.Threading.Tasks;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 104 "C:\Users\jjuip2\Desktop\GIT_27\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 106 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
        
 
     private string? imageSource = $"images/egedal1.png";
     private Egedalmaal tal;
     private string categori { get; set; }
 
-
-
-
+    
     protected override async Task OnInitializedAsync()
     {
         categori = "Afgangskarakterer i folkeskolen";
-        tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44336/api/egemaal/1");
+        tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
         await Load();
 
     }
+
 
     protected async Task Load()
     {
         switch (categori)
         {
             case "Afgangskarakterer i folkeskolen":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44336/api/egemaal/1");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
                 StateHasChanged();
                 break;
 
             case "Fravær blandt elever i folkeskolen":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/2");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/2");
                 StateHasChanged();
                 break;
             case "Forebyggelse til udsatte børn og unge":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/3");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/3");
 
                 StateHasChanged();
                 break;
             case "Sikker skoletrafik":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/4");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/4");
 
                 StateHasChanged();
                 break;
             case "Elever i ungdomsuddannelse":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/5");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/5");
 
                 StateHasChanged();
                 break;
             case "Beskæftigelsesgraden":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/6");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/6");
 
                 StateHasChanged();
                 break;
             case "Erhvervsklima":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/7");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/7");
 
                 StateHasChanged();
                 break;
             case "Udlicitering og konkurrenceudsættelse":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/8");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/8");
 
                 StateHasChanged();
                 break;
             case "Fysisk helbred":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/9 ");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/9 ");
 
                 StateHasChanged();
                 break;
             case "Fysisk aktivitet":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/10");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/10");
 
                 StateHasChanged();
                 break;
             case "Rygning":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/11");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/11");
 
                 StateHasChanged();
                 break;
             case "Alkohol":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/12");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/12");
 
                 StateHasChanged();
                 break;
             case "Genindlæggelser":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/13");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/13");
 
                 StateHasChanged();
                 break;
             case "Ofte uønsket alene (færrest)":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/14");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/14");
 
                 StateHasChanged();
                 break;
             case "Mentalt helbred":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/15");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/15");
 
                 StateHasChanged();
                 break;
             case "Stress":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/16");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/16");
 
                 StateHasChanged();
                 break;
             case "Antal indbrud":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/17");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/17");
 
                 StateHasChanged();
                 break;
             case "Anmeldte voldsforbrydelser":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/18");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/18");
 
                 StateHasChanged();
                 break;
             case "Liggetid på hussalg":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/19");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/19");
 
                 StateHasChanged();
                 break;
             case "Besøg på bibliotekerne":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/20");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/20");
 
                 StateHasChanged();
                 break;
             case "Unikke medlemmer af idrætsorganisation":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/21");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/21");
 
                 StateHasChanged();
                 break;
             case "Genanvendelse af affald":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/22");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/22");
 
                 StateHasChanged();
                 break;
             case "CO2 reduktion":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/23");
-               
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/23");
+
                 StateHasChanged();
                 break;
             case "Anbefaling af kommunen":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/24");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/24");
 
                 StateHasChanged();
                 break;
             case "Tilfredshed med kommunens service":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/25");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/25");
 
                 StateHasChanged();
                 break;
             case "Medarbejdernes sygefravær":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/26");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/26");
 
                 StateHasChanged();
                 break;
             case "Samlet trvisel 4.-9kl":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44300/api/_27maal/27");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/27");
 
                 StateHasChanged();
                 break;
@@ -278,6 +277,7 @@ using System.Threading.Tasks;
         public string? Hvorfor { get; set; }
         public string? Initiativer { get; set; }
         public string? Indikator { get; set; }
+        public string? Dato { get; set; }
 
 
     }

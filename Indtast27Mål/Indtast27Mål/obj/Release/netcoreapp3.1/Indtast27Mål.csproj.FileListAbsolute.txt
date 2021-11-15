@@ -305,3 +305,4 @@ C:\Users\jjuip2\Desktop\GIT_27Maal\Indtast27Mål\Indtast27Mål\obj\Release\netco
 C:\Users\jjuip2\Desktop\GIT_27Maal\Indtast27Mål\Indtast27Mål\obj\Release\netcoreapp3.1\Indtast27Mål.dll
 C:\Users\jjuip2\Desktop\GIT_27Maal\Indtast27Mål\Indtast27Mål\obj\Release\netcoreapp3.1\Indtast27Mål.pdb
 C:\Users\jjuip2\Desktop\GIT_27Maal\Indtast27Mål\Indtast27Mål\obj\Release\netcoreapp3.1\Indtast27Mål.genruntimeconfig.cache
+C:\Users\jjuip2\Desktop\GIT_27Maal\Indtast27Mål\Indtast27Mål\obj\Release\netcoreapp3.1\Indtast27Mål.csprojAssemblyReference.cache

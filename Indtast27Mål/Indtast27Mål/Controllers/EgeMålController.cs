@@ -86,7 +86,7 @@ namespace Indtast27Mål.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Kategori,StatusEgedal,StatusDanmark,SenesteEgedal,SenesteDanmark,Placering,Hvad,Hvorfor,Initiativer,Indikator")] EgeMål egeMål)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Kategori,StatusEgedal,StatusDanmark,SenesteEgedal,SenesteDanmark,Placering,Hvad,Hvorfor,Initiativer,Indikator, Dato")] EgeMål egeMål)
         {
             if (id != egeMål.Id)
             {
