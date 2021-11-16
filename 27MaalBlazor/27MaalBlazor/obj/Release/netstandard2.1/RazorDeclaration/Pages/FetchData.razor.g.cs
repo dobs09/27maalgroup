@@ -10,22 +10,7 @@ namespace _27MaalBlazor.Pages
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
-#nullable restore
-#line 1 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
-using System.Net.Http;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 2 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
-using System.Net.Http.Json;
-
-#line default
-#line hidden
-#nullable disable
 #nullable restore
 #line 3 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
@@ -75,6 +60,27 @@ using _27MaalBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\FetchData.razor"
+using System.Net.Http;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\FetchData.razor"
+using System.Net.Http.Json;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\FetchData.razor"
+using System.Threading.Tasks;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
     public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -84,30 +90,42 @@ using _27MaalBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\FetchData.razor"
-       
-    private WeatherForecast[] forecasts;
+#line 52 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\FetchData.razor"
+ 
+
+    private Egedalmaal[] ege;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        
+        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("https://localhost:44357/api/egemaal");
+        
+
     }
 
-    
-    public class WeatherForecast
+
+    public class Egedalmaal
     {
-        public DateTime Date { get; set; }
+        public int id { get; set; }
+        public string kategori { get; set; }
+        public double? statusEgedal { get; set; }
+        public double? statusDanmark { get; set; }
+        public double? senesteEgedal { get; set; }
+        public double? senesteDanmark { get; set; }
+        public int? placering { get; set; }
+        public string? Hvad { get; set; }
+        public string? Hvorfor { get; set; }
+        public string? Initiativer { get; set; }
+        public string? Indikator { get; set; }
+        public string? Dato { get; set; }
 
-        public int TemperatureC { get; set; }
 
-        public string Summary { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime jsRuntime { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
