@@ -521,7 +521,6 @@ C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstanda
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.RazorComponent.input.cache
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Print.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -535,7 +534,6 @@ C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstanda
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.RazorCoreGenerate.cache
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\Pages\Print.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
@@ -725,6 +723,8 @@ C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstanda
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.dll
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.pdb
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.csprojAssemblyReference.cache
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\tYKbJe7VbxOTWukKEyppS2UMjkcGZ-vXQ9jyjWzeCfo=.hash
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\NNUsE1FTLFTP9rM3ARN-1b9DCvnhtcoW1kygexO07SE=.hash
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\ldnJBY0WrxcHkrKHkSeCunI-6EJPCIJrEroj1Sjbeso=.hash
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Print1.razor.g.cs
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\Pages\Print1.razor.g.cs
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\6zzBdtmC0YtVZy814wxjzt4oEYeaIZKLLRvAmFdm8WQ=.hash
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\KbAkuP6WfH_HfE1PQVxW-W8F8XgnQrcT36S4FTaP_ig=.hash
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\lFE3iqSMC1OzUkTlMw9bkRqjyVLoQl28_A6-yQsuRBM=.hash

@@ -83,7 +83,7 @@ using _27MaalBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Shared\NavMenu.razor"
+#line 32 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\jjuip2\Desktop\publish\MålIndtast</_PublishTargetUrl>
-    <History>True|2021-11-11T12:20:09.9097826Z;</History>
+    <History>True|2021-11-16T16:31:17.2994814Z;True|2021-11-16T17:30:37.3965687+01:00;True|2021-11-11T13:20:09.9097826+01:00;</History>
   </PropertyGroup>
 </Project>

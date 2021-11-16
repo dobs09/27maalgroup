@@ -98,7 +98,7 @@ using System.Threading.Tasks;
     protected override async Task OnInitializedAsync()
     {
         
-        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("https://localhost:44357/api/egemaal");
+        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("http://egedal27api:84/api/egemaal");
         
 
     }

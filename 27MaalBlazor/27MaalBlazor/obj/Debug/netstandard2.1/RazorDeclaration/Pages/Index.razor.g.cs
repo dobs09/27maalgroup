@@ -101,7 +101,7 @@ using System.Threading.Tasks;
     protected override async Task OnInitializedAsync()
     {
         categori = "Afgangskarakterer i folkeskolen";
-        tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44357/api/egemaal/1");
+        tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
         await Load();
 
     }
@@ -112,7 +112,7 @@ using System.Threading.Tasks;
         switch (categori)
         {
             case "Afgangskarakterer i folkeskolen":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44357/api/egemaal/1");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
                 StateHasChanged();
                 break;
 
