@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6zzBdtmC0YtVZy814wxjzt4oEYeaIZKLLRvAmFdm8WQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\d_a8RkhY5m5M2spwJ5RUdF4ReWbaAqkUWj0Kd1O5Ft0=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\27MaalBlazor.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/27MaalBlazor.dll.gz"
     },
@@ -261,7 +261,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KbAkuP6WfH_HfE1PQVxW-W8F8XgnQrcT36S4FTaP_ig=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qS4-q8Gxyq5uhFKVUHHJdTK7JffehD0RTuCB4h9ofrI=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\27MaalBlazor.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/27MaalBlazor.pdb.gz"
     },
@@ -286,7 +286,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lFE3iqSMC1OzUkTlMw9bkRqjyVLoQl28_A6-yQsuRBM=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\0YWdQhOMHpK1yaDnDOIAAT73zuGmDJX45qoCh5o-LS4=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

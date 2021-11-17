@@ -725,6 +725,6 @@ C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstanda
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\27MaalBlazor.csprojAssemblyReference.cache
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Print1.razor.g.cs
 C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\Razor\Pages\Print1.razor.g.cs
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\6zzBdtmC0YtVZy814wxjzt4oEYeaIZKLLRvAmFdm8WQ=.hash
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\KbAkuP6WfH_HfE1PQVxW-W8F8XgnQrcT36S4FTaP_ig=.hash
-C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\lFE3iqSMC1OzUkTlMw9bkRqjyVLoQl28_A6-yQsuRBM=.hash
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\d_a8RkhY5m5M2spwJ5RUdF4ReWbaAqkUWj0Kd1O5Ft0=.hash
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\qS4-q8Gxyq5uhFKVUHHJdTK7JffehD0RTuCB4h9ofrI=.hash
+C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\obj\Debug\netstandard2.1\integrity\0YWdQhOMHpK1yaDnDOIAAT73zuGmDJX45qoCh5o-LS4=.hash

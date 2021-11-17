@@ -1,22 +1,22 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\YbkUfcxG04M_uYXrPAfMo8uIHBJDdMEYn0IQSFDGKys=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\5at2bjw7l1MXwU2NVIi2XQQqsLBoMd6rSnwc0WUuJ04=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\27MaalBlazor.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/27MaalBlazor.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\G6Bixm-_LToOys_M2W1wOHz8ssCMNkvpUPVtCBwQDdk=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\LDX4ezqH2-3VptNiNPK6dkBtNDc7Yf7b1u_ipLFnQjY=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Q6TaEjAP7206NfI8SKk5TiG46kN_PUTG6-EuIkM47UQ=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Rp5894ECJ8x9_BzvQxd68gbzJrglkkFVaufbWXYl9Yk=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Web.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ZuuL360CtEUSBARhFrvWMrc9z840KRIgJzkvbHGOLeM=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UolvmPDFlmK1OtNjyEeyHBSgIFnQw2eFblJM5Oh2_2E=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.gz"
     },
@@ -26,47 +26,47 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Ovo5-wtr0WijEUrEew5IgsPOePvgJ7joPeC7L1nu4L8=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\D6kZkA7-jP_xlYTSprd7hBmHuKCeTFqX2NDwHiTuuSI=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\-YNXxjOOToMod1PPVcVunO9MTq21Ttf5phC8G-_MWI4=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zJtRGD4JzZAOHXxYDERCx2PJKI8PORcp8mzoRIvVRQU=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\81WoN8sH7d6sRk8OP3ZU-wT4JVtB0GGhRpVset-cLcE=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\OVx2AM76zbBc0AC75oe6nZM0W8yBdlgEwriEYkex_iY=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Json.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\wyxV-k956n7CXycagqNY8hGF-sIJCpYxaIV6YvX9-uw=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Uc9XQK-MsF_-anmwLimKQaThSuwpjvC2GmJo7_CQjo0=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\749ZkZ9gdkgMOCy_YVasUAXVHIgIg0PLglr81KXerxw=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\0YJVFssRXO0YzdJEFHziVij4cjbnIfKrj0wpp1_TMj4=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SXS7Sj9laSR1P7OeC8yLsWyZKJ25gDTMzBqSixBGo8Y=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\qvC1rN2GzL4M8eQjgR41vhSAngD0AGkAsohsTGc6ZV4=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\0TD4r2CB2xQ5rO5FAh5MIrMMZTHhUmQJl6o7l8EBagc=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\thi9GxrEPrmJ9oSklYDzfduBPtqDceQc_iPX-JDzNAs=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\w_m7zzcC9oXeDUjetW247XwDEfAH2HEE63Jcl7g6Gp4=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Et9nE3MosuzEO6YccR_l-qIOLQv1uBtnuEy7_13sljo=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Options.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SShCiicEqwDZI0LCuCSsCyCfjfZF_ap6Ce_DvtkDHhI=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\afMf3p14R1gXY0dV0sm5mReCFN1fYGaTQcsRyudHb7I=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Primitives.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.gz"
     },
@@ -81,12 +81,12 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\jB9XXoCt5OsvnaMnpDHAICh67-kuAW__gQkIpEOLEFE=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\tZw4dLLgnkNaJN1RnQttIzp-wYtF8TLRRWeQYG5TMBA=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\Mono.Security.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Mono.Security.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\qLftAnS1cnCme0Dq-1wPta1rOnmbhSuU4zeqxhQnqJ8=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ugc1WZVDzulgLsuIBFDdrnZNTij6Y1_zja77yyrqb-8=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\mscorlib.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.gz"
     },
@@ -96,72 +96,72 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Newtonsoft.Json.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\6XvX0VDfTbNZm4ro56DYSZVaVpMsmyC2ljVb9q_3Xl0=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\jtF7mFVRvrzZmdM8OsXQsYkCCLCiCo5NvSaG0uRqTeU=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Core.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8Bn8MoLWe0fWUknr_pwXtEJxt_owawPv-z8wyZqnwf8=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\G5Xta79azJBJCSgMsaFgPZ-OC_PnL8Rn6B7aKSXmm08=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Data.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\gHH_rdRl-AHDRsIG51kFljSxNJsX94dvn_wNl3nnEYc=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\JRtvQUNAo58aQouW3ljoasoix2gFyHnOSh-KDbybfgc=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\KeBAqNjyQukzcAQ0flbXBvLutnCAhelMHK5vD8Q7hTU=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\k5OSK50XZsDZICXsNBuTHKeO6HvarfuT5v0jTI4XgEo=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\guZ9kAD5x1rnHSqaQ1eIN6RVzDQMQwa6RLf6CVQKKkE=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\O8l91nbhH_GgHOOoynnCCo1c4d_qumd7BgXg4aIbK94=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.Json.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\s_qsAm3dcto9KPopqAwKcM4TnhWvMYZps531CsbE6g0=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\a6xOMVCHqVxC1qh70C-MozokXkcNw9sKIKZTaxUE7dg=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.WebAssemblyHttpHandler.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\trXS5A1iz1nAKOg_HpYR4hdGaAsO6F_SUIvRWy2OG90=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BBxwtuP_hdzAJQYA4E6pQWiSQEIkmoEm_iNXaDQO8kE=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Numerics.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\MfSh7cIkDSu1_OL_QYwmOfsgudZ3WewKelE2lWCMSII=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Zs3Wy-RHg2-dy29Dj61PPbCOqHVqLgSRgn94RdoyBVA=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.CompilerServices.Unsafe.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\iYcJYZsZ7hjhlSwky0MLspVX0evMgVMyI74WgVLGhxM=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ew_gAvDkjyruUwONAmwdEZk8EZVcc0oGLXLZgV2jQdo=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.Serialization.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Serialization.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zdoxyDGaXpLv2jsdDtu8DPeI3_tkKkCxy5s57ahU-P0=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\CSWaQuOlyQq3Lw2q3FGndgvdzOSAJtnX4Tg1rJsZ-Bw=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Encodings.Web.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\7ca_xZHfcDP0qEgp9N_gpTIDUBFHDGdRTKg3jRADDRE=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\oLYRLoomsOe4asKloHT9L4bUwTwxJflwgzc_gYFP9W8=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Json.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Gbn8nr5wIWDi-Fut5_Hz8mee2Nd6p2dvWFqHoEthoXs=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ohXXtd3SGUEoeN2LC2CXo3CEEbie2mmAKmyrcBBlwyY=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\e6qmdkafd4BSCba6nbnnhm3dV7IJl6eQ5CauOOeIpYQ=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\q4keTPPdLDJoMGmSLpzNBRlIjjAlwTU_1eN5bDhA9Tk=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.Linq.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.Linq.dll.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\-MYrDBP4ZXkJrOvJ4-jupHt7hWaETlwboCe4Hl3vELs=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\NR6sH3z_B3E6K--f-YTjClG-T0UKw_heXZ_2kDhO12s=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\linker\\WebAssembly.Bindings.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.gz"
     },
@@ -186,7 +186,7 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\uiqeJnLPd2eneda_uU0lHXEIrnkG4IIsYfyaxGkrGjI=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\9YPgr85mj6MIgWG8sOVYziwr9M-XQ_9myRm_UAZRPfE=.hash",
       "Source": "C:\\Users\\jjuip2\\Desktop\\GIT_27Maal\\27MaalBlazor\\27MaalBlazor\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
