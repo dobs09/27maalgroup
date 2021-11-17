@@ -90,7 +90,7 @@ using System.Threading.Tasks;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 107 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
+#line 109 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
       
 
         private string? imageSource = $"images/egedal1.png";

@@ -14,7 +14,7 @@
 }
 else
 {
-
+<div style="padding: 40px;">
     <table class="table">
         <thead>
             <tr>
@@ -29,22 +29,24 @@ else
         </thead>
     </table>
     @foreach (var maal in ege)
-        {
+    {
 
-    <table class="table">
-        <tbody>
-            <tr>
-                <td style="border: 1px solid #ccc; text-align: left; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 17px; width:150px;">@maal.kategori</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.placering</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.senesteEgedal</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.statusEgedal</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.senesteDanmark</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.statusDanmark</td>
-                <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.Dato</td>
-            </tr>
-        </tbody>
-    </table>
-        }
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 17px; width:150px;">@maal.kategori</td>
+                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.placering</td>
+                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.senesteEgedal</td>
+                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.statusEgedal</td>
+                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.senesteDanmark</td>
+                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.statusDanmark</td>
+                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.Dato</td>
+                </tr>
+            </tbody>
+        </table>
+    }
+</div>
+    
 }
 
 
@@ -55,9 +57,11 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        
-        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("http://egedal27api:84/api/egemaal");
-        
+        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("https://localhost:44357/api/egemaal");
+
+
+        //ege = await Http.GetFromJsonAsync<Egedalmaal[]>("http://egedal27api:84/api/egemaal");
+
 
     }
 
