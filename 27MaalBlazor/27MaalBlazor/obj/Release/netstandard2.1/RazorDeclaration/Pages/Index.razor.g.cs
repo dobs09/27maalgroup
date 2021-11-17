@@ -93,7 +93,7 @@ using System.Threading.Tasks;
 #line 109 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Index.razor"
       
 
-        private string? imageSource = $"images/egedal1.png";
+    private string? imageSource = $"images/egedal1.png";
     private Egedalmaal tal;
     private string categori { get; set; }
 
@@ -101,7 +101,10 @@ using System.Threading.Tasks;
     protected override async Task OnInitializedAsync()
     {
         categori = "Afgangskarakterer i folkeskolen";
-        tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
+        
+        tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44357/api/egemaal/1");
+
+        //tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
         await Load();
 
     }
@@ -112,7 +115,10 @@ using System.Threading.Tasks;
         switch (categori)
         {
             case "Afgangskarakterer i folkeskolen":
-                tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
+                tal = await Http.GetFromJsonAsync<Egedalmaal>("https://localhost:44357/api/egemaal/1");
+
+
+                //tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
                 StateHasChanged();
                 break;
 

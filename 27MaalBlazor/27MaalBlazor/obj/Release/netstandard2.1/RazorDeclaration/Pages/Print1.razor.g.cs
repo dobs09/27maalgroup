@@ -90,16 +90,18 @@ using System.Threading.Tasks;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 52 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Print1.razor"
+#line 54 "C:\Users\jjuip2\Desktop\GIT_27Maal\27MaalBlazor\27MaalBlazor\Pages\Print1.razor"
  
 
     private Egedalmaal[] ege;
 
     protected override async Task OnInitializedAsync()
     {
-        
-        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("http://egedal27api:84/api/egemaal");
-        
+        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("https://localhost:44357/api/egemaal");
+
+
+        //ege = await Http.GetFromJsonAsync<Egedalmaal[]>("http://egedal27api:84/api/egemaal");
+
 
     }
 
