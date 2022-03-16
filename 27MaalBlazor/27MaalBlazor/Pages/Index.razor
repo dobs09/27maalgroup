@@ -46,8 +46,8 @@ else
         <thead>
             <tr>
                 @*<th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; -moz-border-radius-topleft: 99px;">Kategori</th>*@
-                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Placering</th>
-                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Seneste placering Egedal</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Nuværende placering</th>
+                <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Tidligere placering Egedal</th>
                 <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Status Egedal</th>
                 <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Seneste måling Egedal</th>
                 <th style="border: 1px solid #ccc; text-align: center; background-color:rgb(214, 224, 197); border-color: white; padding: 1rem; font-size: 25px;">Status Danmark</th>
@@ -112,12 +112,12 @@ else
     private Egedalmaal tal;
     private string categori { get; set; }
 
-    
+
     protected override async Task OnInitializedAsync()
     {
         categori = "Afgangskarakterer i folkeskolen";
-        
-        
+
+
         tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
         await Load();
 
@@ -129,7 +129,7 @@ else
         switch (categori)
         {
             case "Afgangskarakterer i folkeskolen":
-               
+
 
                 tal = await Http.GetFromJsonAsync<Egedalmaal>("http://egedal27api:84/api/egemaal/1");
                 StateHasChanged();
@@ -287,11 +287,11 @@ else
     {
         public int id { get; set; }
         public string kategori { get; set; }
-        public double? statusEgedal { get; set; }
-        public double? statusDanmark { get; set; }
-        public double? senesteEgedal { get; set; }
-        public double? senesteDanmark { get; set; }
-        public int? placering { get; set; }
+        public string? statusEgedal { get; set; }
+        public string? statusDanmark { get; set; }
+        public string? senesteEgedal { get; set; }
+        public string? senesteDanmark { get; set; }
+        public string? placering { get; set; }
         public string? Hvad { get; set; }
         public string? Hvorfor { get; set; }
         public string? Initiativer { get; set; }

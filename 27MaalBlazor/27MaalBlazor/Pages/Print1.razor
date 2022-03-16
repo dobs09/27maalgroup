@@ -34,7 +34,7 @@ else
         <table class="table">
             <tbody>
                 <tr>
-                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 17px; width:150px;">@maal.kategori</td>
+                    <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.kategori</td>
                     <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.placering</td>
                     <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.senesteEgedal</td>
                     <td style="border: 1px solid #ccc; text-align: center; background-color:whitesmoke; border-color: white; padding: 1rem; font-size: 20px; width:150px;">@maal.statusEgedal</td>
@@ -69,11 +69,11 @@ else
     {
         public int id { get; set; }
         public string kategori { get; set; }
-        public double? statusEgedal { get; set; }
-        public double? statusDanmark { get; set; }
-        public double? senesteEgedal { get; set; }
-        public double? senesteDanmark { get; set; }
-        public int? placering { get; set; }
+        public string? statusEgedal { get; set; }
+        public string? statusDanmark { get; set; }
+        public string? senesteEgedal { get; set; }
+        public string? senesteDanmark { get; set; }
+        public string? placering { get; set; }
         public string? Hvad { get; set; }
         public string? Hvorfor { get; set; }
         public string? Initiativer { get; set; }

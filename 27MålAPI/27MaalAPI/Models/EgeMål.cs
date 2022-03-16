@@ -11,11 +11,11 @@ namespace _27MaalAPI.Models
     {
         public int Id { get; set; }
         public string Kategori { get; set; }
-        public double? StatusEgedal { get; set; }
-        public double? StatusDanmark { get; set; }
-        public double? SenesteEgedal { get; set; }
-        public double? SenesteDanmark { get; set; }
-        public int? Placering { get; set; }
+        public string? StatusEgedal { get; set; }
+        public string? StatusDanmark { get; set; }
+        public string? SenesteEgedal { get; set; }
+        public string? SenesteDanmark { get; set; }
+        public string? Placering { get; set; }
         public string Hvad { get; set; }
         public string Hvorfor { get; set; }
         public string Initiativer { get; set; }

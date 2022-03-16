@@ -5,88 +5,92 @@
 }
 
 <p>
-    <a asp-action="Create"></a>
+    <a asp-action="Create">Create</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Kategori)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.StatusEgedal)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.StatusDanmark)
-            </th>
-            <th>
-                SenestPlaceringEgedal@*@Html.DisplayNameFor(model => model.SenesteEgedal)*@
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SenesteDanmark)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Placering)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Hvad)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Hvorfor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Initiativer)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Indikator)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Dato)
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Kategori)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StatusEgedal)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StatusDanmark)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SenesteEgedal)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SenesteDanmark)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Placering)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Hvad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Hvorfor)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Initiativer)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Indikator)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Dato)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div style="left: 200px;">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Kategori)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StatusEgedal)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StatusDanmark)
+                </th>
+                <th>
+                    SenestPlaceringEgedal@*@Html.DisplayNameFor(model => model.SenesteEgedal)*@
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SenesteDanmark)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Placering)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Hvad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Hvorfor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Initiativer)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Indikator)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Dato)
+                </th>
+            </tr>
+        </thead>
+        <tbody style="left: 50px;">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Kategori)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StatusEgedal)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StatusDanmark)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SenesteEgedal)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SenesteDanmark)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Placering)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Hvad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Hvorfor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Initiativer)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Indikator)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Dato)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

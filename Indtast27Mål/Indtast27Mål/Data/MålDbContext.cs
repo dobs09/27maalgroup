@@ -43,26 +43,32 @@ namespace Indtast27Mål.Data
                     .ValueGeneratedNever();
 
                 entity.Property(e => e.Indikator)
-                    .HasMaxLength(250)
+                    .HasColumnType("varchar(max)")
+                    //.HasMaxLength(250)
                     .IsFixedLength();
 
                 entity.Property(e => e.Hvad)
-                    .HasMaxLength(250)
+                    .HasColumnType("varchar(max)")
+                    //.HasMaxLength(250)
                     .IsFixedLength();
 
                 entity.Property(e => e.Dato)
-                    .HasMaxLength(250)
+                                    .HasColumnType("varchar(max)")
+                    //.HasMaxLength(250)
                     .IsFixedLength();
 
                 entity.Property(e => e.Hvorfor)
-                    .HasMaxLength(250)
+                                    .HasColumnType("varchar(max)")
+                    //.HasMaxLength(250)
                     .IsFixedLength();
 
                 entity.Property(e => e.Initiativer)
-                    .HasMaxLength(250)
+                                    .HasColumnType("varchar(max)")
+                    //.HasMaxLength(250)
                     .IsFixedLength();
 
                 entity.Property(e => e.Kategori)
+                                    //.HasColumnType("varchar(max)")
                     .HasMaxLength(250)
                     .IsFixedLength();
 

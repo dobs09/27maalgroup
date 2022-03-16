@@ -97,10 +97,9 @@ using System.Threading.Tasks;
 
     protected override async Task OnInitializedAsync()
     {
-        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("https://localhost:44357/api/egemaal");
+        
 
-
-        //ege = await Http.GetFromJsonAsync<Egedalmaal[]>("http://egedal27api:84/api/egemaal");
+        ege = await Http.GetFromJsonAsync<Egedalmaal[]>("http://egedal27api:84/api/egemaal");
 
 
     }
@@ -110,11 +109,11 @@ using System.Threading.Tasks;
     {
         public int id { get; set; }
         public string kategori { get; set; }
-        public double? statusEgedal { get; set; }
-        public double? statusDanmark { get; set; }
-        public double? senesteEgedal { get; set; }
-        public double? senesteDanmark { get; set; }
-        public int? placering { get; set; }
+        public string? statusEgedal { get; set; }
+        public string? statusDanmark { get; set; }
+        public string? senesteEgedal { get; set; }
+        public string? senesteDanmark { get; set; }
+        public string? placering { get; set; }
         public string? Hvad { get; set; }
         public string? Hvorfor { get; set; }
         public string? Initiativer { get; set; }
